@@ -55,7 +55,6 @@ module.exports = {
             'window.jQuery': 'jquery'
         }),
         new HtmlWebpackPlugin({
-            title: 'Chat',
             devServer: 'http://192.168.0.12:9000/webpack-dev-server.js',
             template: './app/index.ejs'
         }),
