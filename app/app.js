@@ -16,6 +16,6 @@ import '../node_modules/angular-material/angular-material.css';
 
 import mainRoutes from 'components/main/main.routes';
 
-angular.module('chat', ['ngResource', 'ui.router', 'services', 'directives', 'ngSanitize', 'version', 'ngMaterial', 'ngMessages'])
+angular.module('app', ['ngResource', 'ui.router', 'services', 'directives', 'ngSanitize', 'version', 'ngMaterial', 'ngMessages'])
 
 .config(mainRoutes);
